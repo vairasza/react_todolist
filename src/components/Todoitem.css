@@ -1,0 +1,54 @@
+.todoitem-container {
+    margin: 1%;
+    display: flex;
+}
+
+.buttonEdit {
+    color: rgb(0, 0, 0);
+    background-color: rgba(7,186,121,1);
+    border: none;
+    font-size: 20px;
+    margin-left: 5px;
+    flex: 1;
+}
+
+.buttonDel {
+    color: rgb(255, 255, 255);
+    background-color: rgb(218, 18, 51);
+    border: none;
+    font-size: 20px;
+    margin-left: 5px;
+    flex: 1;
+}
+
+.checkbox {
+    margin-right: 2%;
+    cursor: pointer;
+    flex: 1;
+}
+
+.buttonDel:hover {
+    cursor: pointer;
+    background-color: rgb(189, 29, 56);
+}
+
+.buttonEdit:hover {
+    cursor: pointer;
+    background-color: rgb(26, 161, 112);
+}
+
+.text-display {
+    flex: 25;
+    text-align: left;
+    text-overflow: clip;
+}
+
+.text-display.crossed {
+    text-decoration: line-through;
+}
+
+.text-input-items {
+    flex: 25;
+    text-align: left;
+    text-overflow: clip;
+}

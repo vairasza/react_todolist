@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+  width: 60%;
+  margin: 10em auto;
+  justify-content: center;
+}
+
+body {
+  background: rgb(28,150,152);
+  background: linear-gradient(270deg, rgba(28,150,152,1) 0%, rgba(7,186,121,1) 100%);
+  overflow: hidden;
+}
